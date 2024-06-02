@@ -1,0 +1,17 @@
+<mat-toolbar color="primary" class="toolbar">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    User Management System
+    <span class="example-spacer"></span>
+    <span>Logout </span>
+    <mat-icon matBadge="15" matBadgeColor="warn" >home</mat-icon>
+  </mat-toolbar>
+<p>alluser works!</p>
+<ul class="list-group">
+    <li 
+        *ngFor="let post of posts"
+        class="list-group-item">
+      page:  {{ post.page}}
+    </li>
+  </ul>
