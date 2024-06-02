@@ -1,2 +1,3 @@
-# Angular-Material-Main
-The simplest usage of the API, $theme: mat.define-theme() defines a theme with default values.
+## Angular-Material-Main-Typography
+
+Angular Material represents a theme as a Sass map that contains your color, typography, and density choices, as well as some base design system settings.
